@@ -1,0 +1,41 @@
+{
+  "model": {
+    "provider": "openai",
+    "name": "gpt-4",
+    "api_key": "",
+    "base_url": "",
+    "temperature": 0.7,
+    "max_tokens": 2048,
+    "top_p": 1.0
+  },
+  "agent": {
+    "name": "Dyor AI",
+    "description": "Your Personal AI Assistant",
+    "system_prompt": "You are Dyor AI, a helpful and knowledgeable AI assistant. You can help with various tasks including web browsing, coding, file management, image generation, and data analysis.",
+    "max_conversation_length": 50,
+    "auto_save_conversations": true
+  },
+  "capabilities": {
+    "web_browsing": true,
+    "code_execution": true,
+    "file_management": true,
+    "image_generation": true,
+    "data_analysis": true,
+    "search": true,
+    "shell_commands": false
+  },
+  "ui": {
+    "theme": "light",
+    "language": "en",
+    "show_typing_indicator": true,
+    "auto_scroll": true,
+    "sound_notifications": false
+  },
+  "advanced": {
+    "debug_mode": false,
+    "log_level": "info",
+    "timeout": 30,
+    "retry_attempts": 3
+  },
+  "last_updated": "2025-07-16T02:52:40.036689"
+}
